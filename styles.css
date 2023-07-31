@@ -1,0 +1,144 @@
+body {
+
+
+    display: flex;
+}
+
+#info-personal {
+    flex: 1;
+    background-color: rgb(22, 7, 226);
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 350px; 
+    height: 220px; 
+    border-radius: 40%; 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.contenedor {
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    width: 80%; 
+    margin: 0; 
+}
+
+.icono {
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfaf8;
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.large {
+
+    min-width: 40px;
+}
+
+.espacio{
+
+    margin-left: 20px;
+
+}
+
+
+.progress-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.progress-bar {
+    width: 50%; 
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 9px;
+    background-color: #030303;
+}
+
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.imginteres {
+
+    margin: auto;
+    width: 5px; 
+    height: 5px; 
+    border-radius: 50%; 
+    box-shadow: 0px 0px 1px 0.5px rgba(0, 0, 0, 0.5);
+
+}
+
+#info-restante {
+    flex: 2;
+    background-color: rgb(202, 194, 194); 
+    padding: 20px;
+    
+}
+
+#info-restante h2 {
+    background-color: rgb(22, 7, 226);
+    width: 100%;
+}
+
+#info-restante h3 {
+    color: rgb(39, 39, 39);
+}
+#info-restante h4 {
+    color: rgb(92, 89, 89);
+}
+
+
+
+#apellido {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(125, 125, 126);
+    }
+
+#nombre {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(61, 61, 61);
+    }
+
+
+
+    .tabla {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    p {
+        text-align: justify;
+    }
+    
+    
+
+
+
