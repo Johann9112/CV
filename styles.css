@@ -6,7 +6,7 @@ body {
 
 #info-personal {
     flex: 1;
-    background-color: rgb(22, 7, 226);
+    background-color:  rgb(22, 7, 226);
     padding: 20px;
 }
 
@@ -48,6 +48,8 @@ img {
 .large {
 
     min-width: 40px;
+    max-width: 45px;
+
 }
 
 .espacio{
@@ -72,7 +74,7 @@ img {
 
 .progress {
     height: 9px;
-    background-color: #030303;
+    background-color: #030250;
 }
 
 
